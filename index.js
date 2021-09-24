@@ -155,6 +155,7 @@ bot.variables({
   buy: "",
   suggest: "",
   lock: "",
+  shop: "",
   unlock: "",
   Cookie: "0",
   Pizza: "0",
