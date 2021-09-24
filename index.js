@@ -152,6 +152,7 @@ bot.variables({
   bio: "ketik N!setbio <Text>",
   bank: "",
   gender: "",
+  buy: "",
   suggest: "",
   lock: "",
   unlock: "",
