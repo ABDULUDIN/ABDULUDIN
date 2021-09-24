@@ -78,23 +78,7 @@ bot.onInteractionCreate();
 bot.joinCommand({ 
         channel: "884597413057273876", 
         code: `
-        $description[Hello $username Selemat Datang di Server Nki Store | Digital Store
-
-**Enjoy In The Server !!**
-▬▬▬▬▬〚 ✯ 〛▬▬▬▬▬▬
-Important Channel Links
-
-Chat in
-**#speech_balloon**┃ゝchat 
-
-Rules In
-**#closed_book**┃ゝrules 
-
-Self Role In
-**#palm_tree**┃ゝself-roles 
-
-Thanks For Join ^_^
-        
+        $description[Selamat Datang $username di $serverName 
         
         
         ]
@@ -164,9 +148,9 @@ $textsplit[$getservervar[ccmd];/] 
 
 bot.variables({
   prefix: "N!",
-  Money: "0",
+  uang: "0",
   bio: "ketik N!setbio <Text>",
-  umur: "",
+  bank: "",
   gender: "",
   suggest: "",
   lock: "",
