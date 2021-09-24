@@ -5,45 +5,57 @@ module.exports = {
   $title[Command List]
   $description[
   __**MODERATION**__
-  **Banned** - \`N!ban <@user> [Alasan]\`
-  **Give Role** \`N!giverole <@mention> <@role>\`
-  **Kick** - \`N!kick <@mention> [alasan]\`
-  **Mute** - \`N!mute\`
-  **Nuke** - \`N!nuke\`
-  **Purge** - \`N!clear <number>\`
-  **Remove Role** - \`N!removerole <@mention> <@role>\`
-  **SetMute** - \`N!setmute <@role>\`
-  **TempMute** -\`N!tempmute <@mention> <time>\`
-  **TempRole** - \`N!temprole <@mention> <@role>\`
-  **Unbanned** -\`N!unban <ID USER>\`
-  **UnMute** - \`N!unmute <@mention>\`
+  **Banned** - \`$getServerVar[prefix]ban <@user> [Alasan]\`
+  **Give Role** \`$getServerVar[prefix]giverole <@mention> <@role>\`
+  **Kick** - \`$getServerVar[prefix]kick <@mention> [alasan]\`
+  **Mute** - \`$getServerVar[prefix]mute\`
+  **Nuke** - \`$getServerVar[prefix]nuke\`
+  **Purge** - \`$getServerVar[prefix]clear <number>\`
+  **Remove Role** - \`$getServerVar[prefix]removerole <@mention> <@role>\`
+  **SetMute** - \`$getServerVar[prefix]setmute <@role>\`
+  **TempMute** -\`$getServerVar[prefix]tempmute <@mention> <time>\`
+  **TempRole** - \`$getServerVar[prefix]temprole <@mention> <@role>\`
+  **Unbanned** -\`$getServerVar[prefix]unban <ID USER>\`
+  **UnMute** - \`$getServerVar[prefix]unmute <@mention>\`
+  **Lock Channel** - \`$getServerVar[prefix]lock\`
+  **Unlock Channel** - \`$getServerVar[prefix]unlock\`
   
   __**MUSIC**__
-  **Disconnect** \`N!dc\`
-  **Join** - \`N!join\`
-  **Play** - \`N!play <name/url>\`
-  **Skip** - \`N!skip\`
-  **Stop** - \`N!stop\`
+  **Disconnect** \`$getServerVar[prefix]dc\`
+  **Join** - \`$getServerVar[prefix]join\`
+  **Play** - \`$getServerVar[prefix]play <name/url>\`
+  **Skip** - \`$getServerVar[prefix]skip\`
+  **Stop** - \`$getServerVar[prefix]stop\`
+  **Volume** - \`$getServerVar[prefix]volume <1/200>\`
+  **Antrian Music** - \`$getServerVar[prefix]qeue\`
   
   __**Bonus**__
-  **SetPrefix** - \`N!setprefix\`
-  **Ping** - \`N!ping\`
-  **Bot Info** - \`N!botinfo\`
-  **Channel Info** - \`N!channelinfo\`
-  **Server Info** - \`N!serverinfo\`
-  **Role Info** - \`N!roleinfo\`
-  **User Info** - \`N!userinfo\`
-  **Rip** - \`N!rip <@mention>\`
-  **how gay** - \`N!howgay <@mention>\`
+  **SetPrefix** - \`$getServerVar[prefix]setprefix\`
+  **Ping** - \`$getServerVar[prefix]ping\`
+  **Bot Info** - \`$getServerVar[prefix]botinfo\`
+  **Channel Info** - \`$getServerVar[prefix]channelinfo\`
+  **Server Info** - \`$getServerVar[prefix]serverinfo\`
+  **Role Info** - \`$getServerVar[prefix]roleinfo\`
+  **User Info** - \`$getServerVar[prefix]userinfo\`
+  **Rip** - \`$getServerVar[prefix]rip <@mention>\`
+  **how gay** - \`$getServerVar[prefix]howgay <@mention>\`
+  **embed** - \`$getServerVar[prefix]embed <Text>\`
+  **Say** - \`$getServerVar[prefix]say\`
+  **Avatar** - \`$getServerVar[prefix]avatar <@user>\`
+
+  __**Economy**__ 
+ **shop** - \`$getServerVar[prefix]shop\`
+ **give** - \`$getServerVar[prefix]give\`
+ **deposit** - \`$getServerVar[prefix]dep\`
+ **with** - \`$getServerVar[prefix]with\`
+ **hourly** - \`$getServerVar[prefix]hourly\`
+ **daily** - \`$getServerVar[prefix]daily\`
+ **weekly** - \`$getServerVar[prefix]weekly\`
+ **monthly** - \`$getServerVar[prefix]monthly\`
   
-  __**Update**__
-  **Lock Channel** - \`N!lock\`
-  **Unlock Channel** - \`N!unlock\`
-  **Volume** - \`N!volume <1/200>\`
-  **Antrian Music** - \`N!qeue\`
-  **Avatar** - \`N!avatar <@user>\`
-  **embed** - \`N!embed <Text>\`
-  **Say** - \`N!say\`
+  
+
+  
   
   ]
 $footer[N!<cmd>]
